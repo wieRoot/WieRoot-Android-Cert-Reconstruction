@@ -1,0 +1,20 @@
+# CRITICAL: Protect Private Keys and Certificates
+*.key
+*.crt
+*.der
+*.pem
+*.p12
+*.pfx
+
+# Ignore generated APKs and binaries
+*.apk
+*.jar
+*.class
+
+# Ignore environment variables and secrets
+.env
+*.env
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
